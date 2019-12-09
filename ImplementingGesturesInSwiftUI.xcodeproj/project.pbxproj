@@ -13,6 +13,11 @@
 		95C71828239E468400713C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C71827239E468400713C2A /* Assets.xcassets */; };
 		95C7182B239E468400713C2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C7182A239E468400713C2A /* Preview Assets.xcassets */; };
 		95C7182E239E468400713C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C7182C239E468400713C2A /* LaunchScreen.storyboard */; };
+		95C71836239E46C500713C2A /* TapGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C71835239E46C500713C2A /* TapGestureExample.swift */; };
+		95C71838239E4B5900713C2A /* LongPressGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C71837239E4B5900713C2A /* LongPressGestureExample.swift */; };
+		95C7183A239E4BC100713C2A /* DragGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C71839239E4BC100713C2A /* DragGestureExample.swift */; };
+		95C7183C239E4C0400713C2A /* MagnificationGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7183B239E4C0400713C2A /* MagnificationGestureExample.swift */; };
+		95C7183E239E4C4B00713C2A /* RotationGestureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7183D239E4C4B00713C2A /* RotationGestureExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		95C7182A239E468400713C2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95C7182D239E468400713C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C7182F239E468400713C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C71835239E46C500713C2A /* TapGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureExample.swift; sourceTree = "<group>"; };
+		95C71837239E4B5900713C2A /* LongPressGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureExample.swift; sourceTree = "<group>"; };
+		95C71839239E4BC100713C2A /* DragGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureExample.swift; sourceTree = "<group>"; };
+		95C7183B239E4C0400713C2A /* MagnificationGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureExample.swift; sourceTree = "<group>"; };
+		95C7183D239E4C4B00713C2A /* RotationGestureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				95C7182C239E468400713C2A /* LaunchScreen.storyboard */,
 				95C7182F239E468400713C2A /* Info.plist */,
 				95C71829239E468400713C2A /* Preview Content */,
+				95C71835239E46C500713C2A /* TapGestureExample.swift */,
+				95C71837239E4B5900713C2A /* LongPressGestureExample.swift */,
+				95C71839239E4BC100713C2A /* DragGestureExample.swift */,
+				95C7183B239E4C0400713C2A /* MagnificationGestureExample.swift */,
+				95C7183D239E4C4B00713C2A /* RotationGestureExample.swift */,
 			);
 			path = ImplementingGesturesInSwiftUI;
 			sourceTree = "<group>";
@@ -146,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C7183C239E4C0400713C2A /* MagnificationGestureExample.swift in Sources */,
 				95C71822239E468200713C2A /* AppDelegate.swift in Sources */,
+				95C7183E239E4C4B00713C2A /* RotationGestureExample.swift in Sources */,
 				95C71824239E468200713C2A /* SceneDelegate.swift in Sources */,
+				95C71836239E46C500713C2A /* TapGestureExample.swift in Sources */,
+				95C71838239E4B5900713C2A /* LongPressGestureExample.swift in Sources */,
+				95C7183A239E4BC100713C2A /* DragGestureExample.swift in Sources */,
 				95C71826239E468200713C2A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
